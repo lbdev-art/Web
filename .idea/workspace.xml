@@ -4,19 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="800057a1-15fc-42dc-937e-d54626e36f48" name="Changes" comment="Import anki-cards 1.0">
+    <list default="true" id="800057a1-15fc-42dc-937e-d54626e36f48" name="Changes" comment="Внесены декоративные изменения в контенте">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/terms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/terms.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/account.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/af-flag.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cards.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/form.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/statistic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/uk-flag.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/word.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/flashcards.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/flashcards.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/term_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/term_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/term_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/term_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/term_request.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/term_request.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word-trainer/terms_work.py" beforeDir="false" afterPath="$PROJECT_DIR$/word-trainer/terms_work.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +126,7 @@
       <workItem from="1743790607034" duration="23000" />
       <workItem from="1743791365042" duration="40000" />
       <workItem from="1743791410112" duration="59000" />
-      <workItem from="1743791474475" duration="11772000" />
+      <workItem from="1743791474475" duration="12163000" />
     </task>
     <task id="LOCAL-00001" summary="Import anki-cards 1.0">
       <option name="closed" value="true" />
@@ -132,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743791561007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Внесены декоративные изменения в контенте">
+      <option name="closed" value="true" />
+      <created>1743810833604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743810833604</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +163,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Import anki-cards 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Import anki-cards 1.0" />
+    <MESSAGE value="Внесены декоративные изменения в контенте" />
+    <option name="LAST_COMMIT_MESSAGE" value="Внесены декоративные изменения в контенте" />
   </component>
 </project>
