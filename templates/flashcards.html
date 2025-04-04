@@ -6,17 +6,21 @@
 
 {% block page-lead %}
 Тренажер знания английских слов.
-Введите перевод слова в поле <span class="fst-italic">Перевод</span>.
+Введите перевод слова в поле <code class="fs-4"><span class="fst-italic">Перевод</span></code>.
 {% endblock %}
 
+{% load static %}
 {% block content %}
-<div class="container-sm px-5 py-5" id="term-form">
+<div class="container-sm px-5 py-0" id="term-form">
     <form method="post">
         {% csrf_token %}
-        <div class="row px-5 py-2">
-            <h3>Слово: {{ term }}</h3>
+        <div class="row px-6 py-0">
+            <div>
+                <img src="{% static 'word.png' %}" alt="Word" width="64" height="64" style="vertical-align: middle; margin-right: 10px;" align="middle"/>
+                <h3 class="fs-2">Слово: {{ term }}</h3>
+            </div>
         </div>
-        <div class="row px-5 py-2">
+        <div class="row px-5 py-4">
             <div class="col-md-12">
                 <label for="new_definition">Перевод</label>
                 <textarea type="text" class="form-control input-lg" name="new_definition" id="new_definition" rows="2"></textarea>
