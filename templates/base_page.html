@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block pagetitle %}{% endblock %}</title>
+    {% load static %}
+    <link href="{% static 'bootstrap.min.css' %}" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon-32x32.png' %}"/>
+</head>
+<body>
+<main>
+    <div class="container">
+        <header class="border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <div class="fs-1 mb-3 fw-normal ">
+                    <img src="{% static 'uk-flag.webp' %}" alt="UK Flag" width="80" height="50"/>
+                    <span>Devart Studio</span>
+                </div>
+            </a>
+        </header>
+        <div class="p-5 mb-4 bg-dark rounded-3" id="title-box">
+            <div class="container-fluid py-5">
+                <h1 class="display-1 fw-bold text-bg-dark">
+                    <img src="{% static 'cards.png' %}" alt="Your Image" width="100" height="100" style="vertical-align: middle; margin-right: 10px;"/>
+                    {% block page-title %}{% endblock %}
+                </h1>
+                <p class="col-md-8 fs-4 text-bg-dark">
+                    {% block page-lead %}{% endblock %}
+                </p>
+            </div>
+        </div>
+        {% block content %}{% endblock %}
+        <footer class="footer pt-2 mt-4 text-hidden border-top">Devart Studio Web page</footer>
+        <footer class="footer text-body ">© 2025</footer>
+    </div>
+</main>
+</body>
+</html>
